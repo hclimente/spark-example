@@ -7,3 +7,5 @@ Apache Spark is an open-source cluster computing framework for real-time process
 - Accessibility: APIs available for Java, Scala, Python and R; compatibility with Hadoop; ability to take in multiple data sources (CSV, JSON...).
 
 I found and verified installation instructions for [macOS](https://gist.github.com/ololobus/4c221a0891775eaa86b0).
+
+## Locality-sensitive hashing
