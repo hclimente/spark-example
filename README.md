@@ -9,3 +9,10 @@ Apache Spark is an open-source cluster computing framework for real-time process
 I found and verified installation instructions for [macOS](https://gist.github.com/ololobus/4c221a0891775eaa86b0).
 
 ## Locality-sensitive hashing
+
+We will address the problem of finding pairs of documents that are similar to each other. An exhaustive approach that calculate all pairwise distances would be very inefficient ($O(n^2)$). Instead, we will study an approximate methods, that produces a good enough estimation of similarity in a reasonable time. The process is divided in:
+
+1. Shingling: convert documents into vectors/sets.
+2. Minhashing: convert sets to signatures.
+3. Local-sensitivity hashing: find candidate pairs.
+4. Calculate similarity between candidates.
